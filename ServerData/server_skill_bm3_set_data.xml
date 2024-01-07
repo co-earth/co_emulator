@@ -1,0 +1,20 @@
+<skills>
+    <skill order="0" ClassID="1" BM3_SetID="1" Combo1="481" Combo2="481" Combo3="482" Combo4="481" SynergyID="1"/>
+    <skill order="1" ClassID="1" BM3_SetID="2" Combo1="481" Combo2="482" Combo3="481" Combo4="481" SynergyID="2"/>
+    <skill order="2" ClassID="1" BM3_SetID="3" Combo1="482" Combo2="481" Combo3="481" Combo4="482" SynergyID="3"/>
+    <skill order="3" ClassID="2" BM3_SetID="4" Combo1="486" Combo2="486" Combo3="487" Combo4="486" SynergyID="4"/>
+    <skill order="4" ClassID="2" BM3_SetID="5" Combo1="486" Combo2="487" Combo3="486" Combo4="486" SynergyID="5"/>
+    <skill order="5" ClassID="2" BM3_SetID="6" Combo1="487" Combo2="486" Combo3="486" Combo4="487" SynergyID="6"/>
+    <skill order="6" ClassID="3" BM3_SetID="7" Combo1="491" Combo2="491" Combo3="492" Combo4="491" SynergyID="7"/>
+    <skill order="7" ClassID="3" BM3_SetID="8" Combo1="491" Combo2="492" Combo3="491" Combo4="491" SynergyID="8"/>
+    <skill order="8" ClassID="3" BM3_SetID="9" Combo1="492" Combo2="491" Combo3="491" Combo4="492" SynergyID="9"/>
+    <skill order="9" ClassID="4" BM3_SetID="10" Combo1="496" Combo2="496" Combo3="497" Combo4="496" SynergyID="10"/>
+    <skill order="10" ClassID="4" BM3_SetID="11" Combo1="496" Combo2="497" Combo3="496" Combo4="496" SynergyID="11"/>
+    <skill order="11" ClassID="4" BM3_SetID="12" Combo1="497" Combo2="496" Combo3="496" Combo4="497" SynergyID="12"/>
+    <skill order="12" ClassID="5" BM3_SetID="13" Combo1="501" Combo2="501" Combo3="502" Combo4="501" SynergyID="13"/>
+    <skill order="13" ClassID="5" BM3_SetID="14" Combo1="501" Combo2="502" Combo3="501" Combo4="501" SynergyID="14"/>
+    <skill order="14" ClassID="5" BM3_SetID="15" Combo1="502" Combo2="501" Combo3="501" Combo4="502" SynergyID="15"/>
+    <skill order="15" ClassID="6" BM3_SetID="16" Combo1="506" Combo2="506" Combo3="507" Combo4="506" SynergyID="16"/>
+    <skill order="16" ClassID="6" BM3_SetID="17" Combo1="506" Combo2="507" Combo3="506" Combo4="506" SynergyID="17"/>
+    <skill order="17" ClassID="6" BM3_SetID="18" Combo1="507" Combo2="506" Combo3="506" Combo4="507" SynergyID="18"/>
+</skills>

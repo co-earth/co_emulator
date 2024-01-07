@@ -1,0 +1,15 @@
+USE `auth`;
+
+DROP TABLE IF EXISTS `characters`;
+
+CREATE TABLE `characters` (
+    `account_id` INT NOT NULL,
+
+    `server_id` TINYINT UNSIGNED NOT NULL,
+    `character_count` TINYINT UNSIGNED NOT NULL,
+    
+    `created_at` BIGINT UNSIGNED NOT NULL DEFAULT UNIX_TIMESTAMP(CURRENT_TIMESTAMP),
+    `updated_at` BIGINT UNSIGNED NOT NULL DEFAULT UNIX_TIMESTAMP(CURRENT_TIMESTAMP),
+
+    PRIMARY KEY (`account_id`, `server_id`)
+) ENGINE = INNODB DEFAULT CHARSET = utf8;

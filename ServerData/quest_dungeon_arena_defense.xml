@@ -1,0 +1,5 @@
+<quest_dungeon_arena_defense>
+    <arena_defense order="0" Dungeon_ID="4120" MobIdx="1616" Goal_X="95" Goal_Y="208" SpeedType="1"/>
+    <arena_defense order="1" Dungeon_ID="4120" MobIdx="1617" Goal_X="95" Goal_Y="208" SpeedType="2"/>
+    <arena_defense order="2" Dungeon_ID="4120" MobIdx="1618" Goal_X="95" Goal_Y="208" SpeedType="1"/>
+</quest_dungeon_arena_defense>

@@ -1,0 +1,16 @@
+USE `auth`;
+
+DROP TABLE IF EXISTS `blacklists`;
+
+CREATE TABLE `blacklists` (
+    `id` INT NOT NULL AUTO_INCREMENT,
+
+    `account_id` INT,
+    `address_ip` VARCHAR(16),
+    `description` VARCHAR(255) NOT NULL,
+
+    `created_at` BIGINT UNSIGNED NOT NULL DEFAULT UNIX_TIMESTAMP(CURRENT_TIMESTAMP),
+    `updated_at` BIGINT UNSIGNED NOT NULL DEFAULT UNIX_TIMESTAMP(CURRENT_TIMESTAMP),
+
+    PRIMARY KEY (`id`)
+) ENGINE = INNODB DEFAULT CHARSET = utf8;

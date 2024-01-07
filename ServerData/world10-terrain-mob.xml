@@ -1,0 +1,14 @@
+<drops>
+    <item order="0" TerrainIdx="0" SpeciesIdx="904" ItemKind="1185" ItemOpt="1313" DropRate=".16000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="1" TerrainIdx="0" SpeciesIdx="905" ItemKind="1185" ItemOpt="1313" DropRate=".16000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="2" TerrainIdx="0" SpeciesIdx="906" ItemKind="1185" ItemOpt="1313" DropRate=".16000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="3" TerrainIdx="0" SpeciesIdx="907" ItemKind="1185" ItemOpt="1313" DropRate=".16000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="4" TerrainIdx="0" SpeciesIdx="908" ItemKind="1185" ItemOpt="1313" DropRate=".16000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="5" TerrainIdx="0" SpeciesIdx="909" ItemKind="1185" ItemOpt="1313" DropRate=".16000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="6" TerrainIdx="0" SpeciesIdx="910" ItemKind="1185" ItemOpt="1313" DropRate=".16000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="7" TerrainIdx="0" SpeciesIdx="911" ItemKind="1185" ItemOpt="1313" DropRate=".16000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="8" TerrainIdx="0" SpeciesIdx="912" ItemKind="1185" ItemOpt="1313" DropRate=".16000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="9" TerrainIdx="0" SpeciesIdx="914" ItemKind="1185" ItemOpt="1313" DropRate=".16000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="10" TerrainIdx="0" SpeciesIdx="916" ItemKind="1185" ItemOpt="1313" DropRate=".16000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="11" TerrainIdx="0" SpeciesIdx="917" ItemKind="1185" ItemOpt="1313" DropRate=".16000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+</drops>

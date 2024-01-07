@@ -1,0 +1,9 @@
+<drops>
+    <item order="0" TerrainIdx="0" SpeciesIdx="1182" ItemKind="33209" ItemOpt="1358" DropRate="100.00000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="1" TerrainIdx="0" SpeciesIdx="1183" ItemKind="33209" ItemOpt="1359" DropRate="100.00000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="2" TerrainIdx="0" SpeciesIdx="1184" ItemKind="33270" ItemOpt="1362" DropRate="10.00000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="3" TerrainIdx="0" SpeciesIdx="1185" ItemKind="33209" ItemOpt="1360" DropRate="100.00000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="4" TerrainIdx="0" SpeciesIdx="1186" ItemKind="33270" ItemOpt="1362" DropRate="10.00000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="5" TerrainIdx="0" SpeciesIdx="1187" ItemKind="33209" ItemOpt="1361" DropRate="100.00000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="6" TerrainIdx="0" SpeciesIdx="1188" ItemKind="33270" ItemOpt="1362" DropRate="10.00000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+</drops>

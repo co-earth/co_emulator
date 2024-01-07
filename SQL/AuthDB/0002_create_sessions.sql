@@ -1,0 +1,17 @@
+USE `auth`;
+
+DROP TABLE IF EXISTS `sessions`;
+
+CREATE TABLE `sessions` (
+    `account_id` INT NOT NULL,
+    
+    `online` BOOLEAN NOT NULL DEFAULT FALSE,
+    `session_key` VARCHAR(32) NOT NULL DEFAULT '',
+    `session_ip` VARCHAR(15) NOT NULL DEFAULT '127.0.0.1',
+    `session_at` BIGINT UNSIGNED NOT NULL DEFAULT UNIX_TIMESTAMP(),
+    
+    `created_at` BIGINT UNSIGNED NOT NULL DEFAULT UNIX_TIMESTAMP(),
+    `updated_at` BIGINT UNSIGNED NOT NULL DEFAULT UNIX_TIMESTAMP(),
+
+    PRIMARY KEY (`account_id`)
+) ENGINE = INNODB DEFAULT CHARSET = utf8;

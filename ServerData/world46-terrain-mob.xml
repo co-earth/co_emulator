@@ -1,0 +1,4 @@
+<drops>
+    <item order="0" TerrainIdx="0" SpeciesIdx="1451" ItemKind="37355" ItemOpt="1398" DropRate="100.00000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+    <item order="1" TerrainIdx="0" SpeciesIdx="1454" ItemKind="37353" ItemOpt="1397" DropRate="100.00000000000000000" MinLv="1" MaxDropCnt="0" OptPoolIdx="0" DurationIdx="0"/>
+</drops>

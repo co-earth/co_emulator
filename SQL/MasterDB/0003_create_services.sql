@@ -1,0 +1,18 @@
+USE `master`;
+
+DROP TABLE IF EXISTS `services`;
+
+CREATE TABLE `services` (
+    `id` INT NOT NULL AUTO_INCREMENT,
+
+    `account_id` INT NOT NULL,
+
+    `service_type` INT UNSIGNED NOT NULL,
+    `started_at` BIGINT UNSIGNED NOT NULL,
+    `expired_at` BIGINT UNSIGNED NOT NULL,
+
+    `created_at` BIGINT UNSIGNED NOT NULL DEFAULT UNIX_TIMESTAMP(),
+    `updated_at` BIGINT UNSIGNED NOT NULL DEFAULT UNIX_TIMESTAMP(),
+
+    PRIMARY KEY (`id`)
+) ENGINE = INNODB DEFAULT CHARSET = utf8;

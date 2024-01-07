@@ -1,0 +1,35 @@
+<drops>
+    <item order="0" TerrainIdx="0" SpeciesIdx="51" ItemKind="469" ItemOpt="22" DropRate="20" MaxDropCnt="0"/>
+    <item order="1" TerrainIdx="0" SpeciesIdx="51" ItemKind="470" ItemOpt="11" DropRate="20" MaxDropCnt="0"/>
+    <item order="2" TerrainIdx="0" SpeciesIdx="51" ItemKind="467" ItemOpt="34" DropRate="20" MaxDropCnt="0"/>
+    <item order="3" TerrainIdx="0" SpeciesIdx="85" ItemKind="442" ItemOpt="61" DropRate="40" MaxDropCnt="0"/>
+    <item order="4" TerrainIdx="0" SpeciesIdx="102" ItemKind="459" ItemOpt="85" DropRate="10" MaxDropCnt="0"/>
+    <item order="5" TerrainIdx="0" SpeciesIdx="85" ItemKind="449" ItemOpt="85" DropRate="10" MaxDropCnt="0"/>
+    <item order="6" TerrainIdx="0" SpeciesIdx="95" ItemKind="457" ItemOpt="110" DropRate="20" MaxDropCnt="0"/>
+    <item order="7" TerrainIdx="0" SpeciesIdx="179" ItemKind="478" ItemOpt="297" DropRate="20" MaxDropCnt="0"/>
+    <item order="8" TerrainIdx="0" SpeciesIdx="180" ItemKind="478" ItemOpt="230" DropRate="17" MaxDropCnt="0"/>
+    <item order="9" TerrainIdx="0" SpeciesIdx="32" ItemKind="506" ItemOpt="231" DropRate="10" MaxDropCnt="0"/>
+    <item order="10" TerrainIdx="0" SpeciesIdx="251" ItemKind="448" ItemOpt="301" DropRate="10" MaxDropCnt="0"/>
+    <item order="11" TerrainIdx="0" SpeciesIdx="32" ItemKind="451" ItemOpt="321" DropRate="20" MaxDropCnt="0"/>
+    <item order="12" TerrainIdx="0" SpeciesIdx="92" ItemKind="442" ItemOpt="349" DropRate="50" MaxDropCnt="0"/>
+    <item order="13" TerrainIdx="0" SpeciesIdx="102" ItemKind="541" ItemOpt="370" DropRate="30" MaxDropCnt="0"/>
+    <item order="14" TerrainIdx="0" SpeciesIdx="96" ItemKind="457" ItemOpt="376" DropRate="40" MaxDropCnt="0"/>
+    <item order="15" TerrainIdx="0" SpeciesIdx="58" ItemKind="562" ItemOpt="378" DropRate="20" MaxDropCnt="0"/>
+    <item order="16" TerrainIdx="0" SpeciesIdx="84" ItemKind="455" ItemOpt="382" DropRate="20" MaxDropCnt="0"/>
+    <item order="17" TerrainIdx="0" SpeciesIdx="183" ItemKind="461" ItemOpt="392" DropRate="30" MaxDropCnt="0"/>
+    <item order="18" TerrainIdx="0" SpeciesIdx="180" ItemKind="509" ItemOpt="394" DropRate="30" MaxDropCnt="0"/>
+    <item order="19" TerrainIdx="0" SpeciesIdx="31" ItemKind="506" ItemOpt="398" DropRate="30" MaxDropCnt="0"/>
+    <item order="20" TerrainIdx="0" SpeciesIdx="32" ItemKind="513" ItemOpt="405" DropRate="20" MaxDropCnt="0"/>
+    <item order="21" TerrainIdx="0" SpeciesIdx="5" ItemKind="462" ItemOpt="434" DropRate="42" MaxDropCnt="0"/>
+    <item order="22" TerrainIdx="0" SpeciesIdx="5" ItemKind="1103" ItemOpt="622" DropRate="71" MaxDropCnt="0"/>
+    <item order="23" TerrainIdx="0" SpeciesIdx="51" ItemKind="470" ItemOpt="3011" DropRate="100" MaxDropCnt="0"/>
+    <item order="24" TerrainIdx="0" SpeciesIdx="51" ItemKind="469" ItemOpt="3026" DropRate="100" MaxDropCnt="0"/>
+    <item order="25" TerrainIdx="0" SpeciesIdx="92" ItemKind="442" ItemOpt="3031" DropRate="100" MaxDropCnt="0"/>
+    <item order="26" TerrainIdx="0" SpeciesIdx="51" ItemKind="467" ItemOpt="3042" DropRate="100" MaxDropCnt="0"/>
+    <item order="27" TerrainIdx="0" SpeciesIdx="85" ItemKind="2679" ItemOpt="3050" DropRate="100" MaxDropCnt="0"/>
+    <item order="28" TerrainIdx="0" SpeciesIdx="58" ItemKind="562" ItemOpt="3234" DropRate="80" MaxDropCnt="0"/>
+    <item order="29" TerrainIdx="0" SpeciesIdx="183" ItemKind="2825" ItemOpt="3245" DropRate="70" MaxDropCnt="0"/>
+    <item order="30" TerrainIdx="0" SpeciesIdx="180" ItemKind="448" ItemOpt="3254" DropRate="30" MaxDropCnt="0"/>
+    <item order="31" TerrainIdx="0" SpeciesIdx="4" ItemKind="541" ItemOpt="3271" DropRate="70" MaxDropCnt="0"/>
+    <item order="32" TerrainIdx="0" SpeciesIdx="5" ItemKind="2870" ItemOpt="3279" DropRate="70" MaxDropCnt="0"/>
+</drops>

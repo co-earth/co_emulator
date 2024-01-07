@@ -1,0 +1,22 @@
+<drops>
+    <item order="0" TerrainIdx="0" SpeciesIdx="586" ItemKind="479" ItemOpt="1065" DropRate="10" MaxDropCnt="0"/>
+    <item order="1" TerrainIdx="0" SpeciesIdx="586" ItemKind="479" ItemOpt="1067" DropRate="10" MaxDropCnt="0"/>
+    <item order="2" TerrainIdx="0" SpeciesIdx="586" ItemKind="479" ItemOpt="1069" DropRate="10" MaxDropCnt="0"/>
+    <item order="3" TerrainIdx="0" SpeciesIdx="113" ItemKind="479" ItemOpt="1071" DropRate="10" MaxDropCnt="0"/>
+    <item order="4" TerrainIdx="0" SpeciesIdx="113" ItemKind="479" ItemOpt="1073" DropRate="10" MaxDropCnt="0"/>
+    <item order="5" TerrainIdx="0" SpeciesIdx="112" ItemKind="479" ItemOpt="1075" DropRate="10" MaxDropCnt="0"/>
+    <item order="6" TerrainIdx="0" SpeciesIdx="112" ItemKind="479" ItemOpt="1077" DropRate="10" MaxDropCnt="0"/>
+    <item order="7" TerrainIdx="0" SpeciesIdx="581" ItemKind="479" ItemOpt="1079" DropRate="10" MaxDropCnt="0"/>
+    <item order="8" TerrainIdx="0" SpeciesIdx="129" ItemKind="479" ItemOpt="1084" DropRate="50" MaxDropCnt="0"/>
+    <item order="9" TerrainIdx="0" SpeciesIdx="126" ItemKind="479" ItemOpt="1085" DropRate="70" MaxDropCnt="0"/>
+    <item order="10" TerrainIdx="0" SpeciesIdx="128" ItemKind="479" ItemOpt="1096" DropRate="70" MaxDropCnt="0"/>
+    <item order="11" TerrainIdx="0" SpeciesIdx="589" ItemKind="566" ItemOpt="521" DropRate="90" MaxDropCnt="0"/>
+    <item order="12" TerrainIdx="0" SpeciesIdx="586" ItemKind="1103" ItemOpt="651" DropRate="71" MaxDropCnt="0"/>
+    <item order="13" TerrainIdx="0" SpeciesIdx="112" ItemKind="479" ItemOpt="1181" DropRate="60" MaxDropCnt="0"/>
+    <item order="14" TerrainIdx="0" SpeciesIdx="591" ItemKind="2873" ItemOpt="3338" DropRate="100" MaxDropCnt="0"/>
+    <item order="15" TerrainIdx="0" SpeciesIdx="597" ItemKind="506" ItemOpt="3339" DropRate="100" MaxDropCnt="0"/>
+    <item order="16" TerrainIdx="0" SpeciesIdx="128" ItemKind="2874" ItemOpt="3340" DropRate="100" MaxDropCnt="0"/>
+    <item order="17" TerrainIdx="0" SpeciesIdx="112" ItemKind="2877" ItemOpt="3189" DropRate="80" MaxDropCnt="0"/>
+    <item order="18" TerrainIdx="0" SpeciesIdx="112" ItemKind="2877" ItemOpt="3191" DropRate="80" MaxDropCnt="0"/>
+    <item order="19" TerrainIdx="0" SpeciesIdx="112" ItemKind="2877" ItemOpt="3193" DropRate="80" MaxDropCnt="0"/>
+</drops>

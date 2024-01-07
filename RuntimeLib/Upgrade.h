@@ -1,0 +1,66 @@
+#pragma once
+
+#include "Base.h"
+#include "Constants.h"
+
+EXTERN_C_BEGIN
+
+#pragma pack(push, 1)
+
+enum {
+    RUNTIME_UPGRADE_RESULT_ERROR        = 0,
+    RUNTIME_UPGRADE_RESULT_UPGRADE_1    = 1,
+    RUNTIME_UPGRADE_RESULT_UPGRADE_2    = 2,
+    RUNTIME_UPGRADE_RESULT_DOWNGRADE_0  = 3,
+    RUNTIME_UPGRADE_RESULT_DOWNGRADE_1  = 4,
+    RUNTIME_UPGRADE_RESULT_DOWNGRADE_2  = 5,
+    RUNTIME_UPGRADE_RESULT_DESTROYED    = 6,
+};
+
+enum {
+    RUNTIME_UPGRADE_TYPE_LEVEL_NORMAL,
+    RUNTIME_UPGRADE_TYPE_LEVEL_ENCHANT,
+    RUNTIME_UPGRADE_TYPE_LEVEL_SUPERIOR,
+    RUNTIME_UPGRADE_TYPE_LEVEL_PERFECT,
+
+    RUNTIME_UPGRADE_TYPE_COUNT,
+};
+
+enum {
+    RUNTIME_UPGRADE_RATE_TYPE_UPGRADE_1,
+    RUNTIME_UPGRADE_RATE_TYPE_UPGRADE_2,
+    RUNTIME_UPGRADE_RATE_TYPE_DOWNGRADE_0,
+    RUNTIME_UPGRADE_RATE_TYPE_DOWNGRADE_1,
+    RUNTIME_UPGRADE_RATE_TYPE_DOWNGRADE_2,
+    RUNTIME_UPGRADE_RATE_TYPE_DOWNGRADE_RESET,
+
+    RUNTIME_UPGRADE_RATE_TYPE_COUNT,
+};
+
+struct _RTUpgradeLevelData {
+    Int32 Level;
+    Int32 Rates[RUNTIME_UPGRADE_RATE_TYPE_COUNT];
+    Int32 CoreCount;
+    Int32 SafeCount;
+};
+
+struct _RTUpgradeData {
+    Int32 Count;
+    struct _RTUpgradeLevelData Levels[RUNTIME_UPGRADE_MAX_LEVEL_COUNT];
+};
+
+Int32 RTUpgradeLevelNormalGetCoreCount(
+    RTRuntimeRef Runtime,
+    RTItemSlotRef Item
+);
+
+Int32 RTUpgradeLevelNormal(
+    RTRuntimeRef Runtime,
+    RTItemSlotRef Item,
+    Int32* UpgradePoint,
+    Int32* Seed
+);
+
+#pragma pack(pop)
+
+EXTERN_C_END

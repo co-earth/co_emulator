@@ -1,0 +1,5 @@
+<drops>
+    <item order="0" TerrainIdx="0" SpeciesIdx="906" ItemKind="758" ItemOpt="1260" DropRate="25" MaxDropCnt="0"/>
+    <item order="1" TerrainIdx="0" SpeciesIdx="906" ItemKind="758" ItemOpt="1263" DropRate="25" MaxDropCnt="0"/>
+    <item order="2" TerrainIdx="0" SpeciesIdx="906" ItemKind="758" ItemOpt="1266" DropRate="25" MaxDropCnt="0"/>
+</drops>

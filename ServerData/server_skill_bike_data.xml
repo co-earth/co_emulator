@@ -1,0 +1,10 @@
+<skills>
+    <skill order="0" Main_SkillIdx="421" SKill_Level="1" Sub_SKillIdx="360" Loop="0" Class_Level="6"/>
+    <skill order="1" Main_SkillIdx="421" SKill_Level="2" Sub_SKillIdx="361" Loop="0" Class_Level="7"/>
+    <skill order="2" Main_SkillIdx="421" SKill_Level="3" Sub_SKillIdx="362" Loop="0" Class_Level="8"/>
+    <skill order="3" Main_SkillIdx="421" SKill_Level="4" Sub_SKillIdx="363" Loop="3" Class_Level="9"/>
+    <skill order="4" Main_SkillIdx="422" SKill_Level="1" Sub_SKillIdx="364" Loop="0" Class_Level="10"/>
+    <skill order="5" Main_SkillIdx="422" SKill_Level="2" Sub_SKillIdx="365" Loop="0" Class_Level="11"/>
+    <skill order="6" Main_SkillIdx="422" SKill_Level="3" Sub_SKillIdx="366" Loop="0" Class_Level="12"/>
+    <skill order="7" Main_SkillIdx="422" SKill_Level="4" Sub_SKillIdx="367" Loop="3" Class_Level="13"/>
+</skills>

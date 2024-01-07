@@ -1,0 +1,42 @@
+<shops>
+    <shop world_id="1" npc_id="46">
+        <item slot_id="0" item_id="9" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="1" item_id="10" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="2" item_id="1" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="3" item_id="1214" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="4" item_id="33556422" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+
+        <item slot_id="8" item_id="637" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="9" item_id="638" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="10" item_id="639" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="11" item_id="1216" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="12" item_id="33556423" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+
+        <item slot_id="16" item_id="582" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="17" item_id="583" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="18" item_id="2" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="19" item_id="1215" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="20" item_id="33556421" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+
+        <item slot_id="24" item_id="33554733" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="25" item_id="33555961" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+
+        <item slot_id="32" item_id="33556388" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="33" item_id="580" option="1" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        
+        
+        <item slot_id="64" item_id="454" option="0" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+
+        <item slot_id="72" item_id="33556376" option="536880372" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="73" item_id="33557473" option="536880372" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="74" item_id="33556410" option="536880372" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="75" item_id="33556386" option="536882942" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="76" item_id="33556394" option="536880383" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+        <item slot_id="77" item_id="33556402" option="536882942" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+    
+        <item slot_id="78" item_id="578" option="1108" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+
+        <item slot_id="79" item_id="1467" option="1322" reputation_class="-19" duration_id="0" price="0" onlypremium="0" wexpprice="0" dp="0" />
+
+    </shop>
+</shops>

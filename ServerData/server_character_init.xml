@@ -1,0 +1,278 @@
+<server_character_init>
+    <character_init style="1">
+        <skill id="2" level="1" slot="0" />
+        <skill id="340" level="1" slot="72" />
+        <skill id="341" level="1" slot="73" />
+        <skill id="400" level="1" slot="75" />
+        <skill id="380" level="1" slot="78" />
+        <skill id="381" level="1" slot="79" />
+        <skill id="382" level="1" slot="80" />
+        <skill id="383" level="1" slot="81" />
+        <skill id="1" level="1" slot="1" />
+        <skill id="421" level="1" slot="102" />
+        <skill id="422" level="1" slot="103" />
+        <skill id="481" level="1" slot="105" />
+        <skill id="482" level="1" slot="106" />
+        <skill id="483" level="1" slot="107" />
+        <skill id="475" level="1" slot="74" />
+        <skill id="333" level="1" slot="70" />
+        <skill id="597" level="1" slot="104" />
+        
+        <quickslot skill="0" slot="0" />
+        <quickslot skill="1" slot="1" />
+        <quickslot skill="237" slot="9" />
+        <quickslot skill="239" slot="10" />
+        <quickslot skill="130" slot="11" />
+
+        <inventory slot="0" item_id="3" item_option="5" />
+        <inventory slot="1" item_id="6" item_option="20" />
+        <inventory slot="2" item_id="240" item_option="0" />
+        <inventory slot="9" item_id="12" item_option="5" />
+    </character_init>
+    
+    <character_init style="2">
+        <skill id="2" level="1" slot="0" />
+        <skill id="342" level="1" slot="72" />
+        <skill id="343" level="1" slot="73" />
+        <skill id="402" level="1" slot="75" />
+        <skill id="384" level="1" slot="78" />
+        <skill id="385" level="1" slot="79" />
+        <skill id="386" level="1" slot="80" />
+        <skill id="387" level="1" slot="81" />
+        <skill id="1" level="1" slot="1" />
+        <skill id="421" level="1" slot="102" />
+        <skill id="422" level="1" slot="103" />
+        <skill id="486" level="1" slot="105" />
+        <skill id="487" level="1" slot="106" />
+        <skill id="488" level="1" slot="107" />
+        <skill id="476" level="1" slot="74" />
+        <skill id="333" level="1" slot="70" />
+        <skill id="598" level="1" slot="104" />
+        
+        <quickslot skill="0" slot="0" />
+        <quickslot skill="1" slot="1" />
+        <quickslot skill="237" slot="9" />
+        <quickslot skill="239" slot="10" />
+        <quickslot skill="130" slot="11" />
+        
+        <inventory slot="0" item_id="3" item_option="5" />
+        <inventory slot="1" item_id="6" item_option="20" />
+        <inventory slot="2" item_id="270" item_option="0" />
+        <inventory slot="9" item_id="12" item_option="5" />
+    </character_init>
+    
+    <character_init style="3">
+        <skill id="100" level="1" slot="32" />
+        <skill id="344" level="1" slot="72" />
+        <skill id="345" level="1" slot="73" />
+        <skill id="404" level="1" slot="75" />
+        <skill id="129" level="1" slot="33" />
+        <skill id="421" level="1" slot="102" />
+        <skill id="422" level="1" slot="103" />
+        <skill id="491" level="1" slot="105" />
+        <skill id="492" level="1" slot="106" />
+        <skill id="493" level="1" slot="107" />
+        <skill id="477" level="1" slot="74" />
+        <skill id="333" level="1" slot="70" />
+        <skill id="599" level="1" slot="104" />
+        
+        <quickslot skill="32" slot="0" />
+        <quickslot skill="33" slot="1" />
+        <quickslot skill="237" slot="9" />
+        <quickslot skill="239" slot="10" />
+        <quickslot skill="130" slot="11" />
+        
+        <inventory slot="0" item_id="3" item_option="5" />
+        <inventory slot="1" item_id="6" item_option="20" />
+        <inventory slot="2" item_id="270" item_option="0" />
+        <inventory slot="9" item_id="12" item_option="5" />
+    </character_init>
+    
+    <character_init style="4">
+        <skill id="424" level="1" slot="32" />
+        <skill id="331" level="1" slot="67" />
+        <skill id="346" level="1" slot="72" />
+        <skill id="347" level="1" slot="73" />
+        <skill id="406" level="1" slot="75" />
+        <skill id="391" level="1" slot="78" />
+        <skill id="392" level="1" slot="79" />
+        <skill id="393" level="1" slot="80" />
+        <skill id="394" level="1" slot="81" />
+        <skill id="148" level="1" slot="33" />
+        <skill id="421" level="1" slot="102" />
+        <skill id="422" level="1" slot="103" />
+        <skill id="496" level="1" slot="105" />
+        <skill id="497" level="1" slot="106" />
+        <skill id="498" level="1" slot="107" />
+        <skill id="478" level="1" slot="74" />
+        <skill id="333" level="1" slot="70" />
+        <skill id="600" level="1" slot="104" />
+        
+        <quickslot skill="32" slot="0" />
+        <quickslot skill="33" slot="1" />
+        <quickslot skill="237" slot="9" />
+        <quickslot skill="239" slot="10" />
+        <quickslot skill="130" slot="11" />
+        
+        <inventory slot="0" item_id="3" item_option="5" />
+        <inventory slot="1" item_id="6" item_option="20" />
+        <inventory slot="2" item_id="255" item_option="0" />
+        <inventory slot="9" item_id="12" item_option="5" />
+    </character_init>
+
+    <character_init style="5">
+        <skill id="2" level="1" slot="0" />
+        <skill id="332" level="1" slot="67" />
+        <skill id="348" level="1" slot="72" />
+        <skill id="349" level="1" slot="73" />
+        <skill id="408" level="1" slot="75" />
+        <skill id="388" level="1" slot="78" />
+        <skill id="389" level="1" slot="79" />
+        <skill id="390" level="1" slot="80" />
+        <skill id="157" level="1" slot="32" />
+        <skill id="421" level="1" slot="102" />
+        <skill id="422" level="1" slot="103" />
+        <skill id="501" level="1" slot="105" />
+        <skill id="502" level="1" slot="106" />
+        <skill id="503" level="1" slot="107" />
+        <skill id="479" level="1" slot="74" />
+        <skill id="333" level="1" slot="70" />
+        <skill id="601" level="1" slot="104" />
+        
+        <quickslot skill="0" slot="0" />
+        <quickslot skill="32" slot="1" />
+        <quickslot skill="237" slot="9" />
+        <quickslot skill="239" slot="10" />
+        <quickslot skill="130" slot="11" />
+        
+        <inventory slot="0" item_id="3" item_option="5" />
+        <inventory slot="1" item_id="6" item_option="20" />
+        <inventory slot="2" item_id="240" item_option="0" />
+        <inventory slot="9" item_id="12" item_option="5" />
+    </character_init>
+    
+    <character_init style="6">
+        <skill id="2" level="1" slot="0" />
+        <skill id="100" level="1" slot="32" />
+        <skill id="350" level="1" slot="72" />
+        <skill id="351" level="1" slot="73" />
+        <skill id="410" level="1" slot="75" />
+        <skill id="464" level="1" slot="78" />
+        <skill id="465" level="1" slot="79" />
+        <skill id="466" level="1" slot="80" />
+        <skill id="467" level="1" slot="81" />
+        <skill id="421" level="1" slot="102" />
+        <skill id="422" level="1" slot="103" />
+        <skill id="506" level="1" slot="105" />
+        <skill id="507" level="1" slot="106" />
+        <skill id="508" level="1" slot="107" />
+        <skill id="329" level="1" slot="67" />
+        <skill id="480" level="1" slot="74" />
+        <skill id="333" level="1" slot="70" />
+        <skill id="602" level="1" slot="104" />
+        
+        <quickslot skill="0" slot="0" />
+        <quickslot skill="32" slot="1" />
+        <quickslot skill="237" slot="9" />
+        <quickslot skill="239" slot="10" />
+        <quickslot skill="130" slot="11" />
+        
+        <inventory slot="0" item_id="3" item_option="5" />
+        <inventory slot="1" item_id="6" item_option="20" />
+        <inventory slot="2" item_id="255" item_option="0" />
+        <inventory slot="9" item_id="12" item_option="5" />
+    </character_init>
+    
+    <character_init style="7">
+        <skill id="352" level="1" slot="72" />
+        <skill id="353" level="1" slot="73" />
+        <skill id="399" level="1" slot="75" />
+        <skill id="395" level="1" slot="78" />
+        <skill id="396" level="1" slot="79" />
+        <skill id="397" level="1" slot="80" />
+        <skill id="398" level="1" slot="81" />
+        <skill id="402" level="1" slot="102" />
+        <skill id="422" level="1" slot="103" />
+        <skill id="172" level="1" slot="105" />
+        <skill id="173" level="1" slot="106" />
+        <skill id="174" level="1" slot="107" />
+        <skill id="76" level="1" slot="0" />
+        <skill id="77" level="1" slot="1" />
+        <skill id="177" level="1" slot="67" />
+        <skill id="171" level="1" slot="74" />
+        <skill id="333" level="1" slot="70" />
+        <skill id="603" level="1" slot="104" />
+        
+        <quickslot skill="0" slot="0" />
+        <quickslot skill="1" slot="1" />
+        <quickslot skill="237" slot="9" />
+        <quickslot skill="239" slot="10" />
+        <quickslot skill="130" slot="11" />
+        
+        <inventory slot="0" item_id="3" item_option="5" />
+        <inventory slot="1" item_id="6" item_option="20" />
+        <inventory slot="2" item_id="240" item_option="0" />
+        <inventory slot="9" item_id="12" item_option="5" />
+    </character_init>
+    
+    <character_init style="8">
+        <skill id="512" level="1" slot="72" />
+        <skill id="513" level="1" slot="73" />
+        <skill id="518" level="1" slot="75" />
+        <skill id="514" level="1" slot="78" />
+        <skill id="515" level="1" slot="79" />
+        <skill id="516" level="1" slot="80" />
+        <skill id="517" level="1" slot="81" />
+        <skill id="520" level="1" slot="105" />
+        <skill id="521" level="1" slot="106" />
+        <skill id="525" level="1" slot="32" />
+        <skill id="553" level="1" slot="33" />
+        <skill id="330" level="1" slot="67" />
+        <skill id="421" level="1" slot="102" />
+        <skill id="422" level="1" slot="103" />
+        <skill id="522" level="1" slot="107" />
+        <skill id="519" level="1" slot="74" />
+        <skill id="333" level="1" slot="70" />
+        <skill id="604" level="1" slot="104" />
+        
+        <quickslot skill="32" slot="0" />
+        <quickslot skill="33" slot="1" />
+        <quickslot skill="237" slot="9" />
+        <quickslot skill="239" slot="10" />
+        <quickslot skill="130" slot="11" />
+        
+        <inventory slot="0" item_id="3" item_option="5" />
+        <inventory slot="1" item_id="6" item_option="20" />
+        <inventory slot="2" item_id="255" item_option="0" />
+        <inventory slot="9" item_id="12" item_option="5" />
+    </character_init>
+
+    <character_init style="9">
+        <skill id="633" level="1" slot="0" />
+        <skill id="636" level="1" slot="1" />
+        <skill id="333" level="1" slot="70" />
+        <skill id="663" level="1" slot="72" />
+        <skill id="664" level="1" slot="73" />
+        <skill id="668" level="1" slot="74" />
+        <skill id="667" level="1" slot="75" />
+        <skill id="665" level="1" slot="78" />
+        <skill id="666" level="1" slot="79" />
+        <skill id="421" level="1" slot="102" />
+        <skill id="422" level="1" slot="103" />
+        <skill id="674" level="1" slot="104" />
+        <skill id="669" level="1" slot="105" />
+        <skill id="670" level="1" slot="106" />
+        <skill id="671" level="1" slot="107" />
+        
+        <quickslot skill="0" slot="0" />
+        <quickslot skill="1" slot="1" />
+        <quickslot skill="237" slot="9" />
+        <quickslot skill="239" slot="10" />
+        <quickslot skill="130" slot="11" />
+        
+        <inventory slot="0" item_id="3" item_option="5" />
+        <inventory slot="1" item_id="6" item_option="20" />
+        <inventory slot="2" item_id="270" item_option="0" />
+        <inventory slot="9" item_id="12" item_option="5" />
+    </character_init>
+</server_character_init>

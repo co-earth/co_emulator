@@ -1,0 +1,34 @@
+<upgrade>
+    <normal_upgrade>
+        <level level="0"    rates="100,0,0,0,0,0"       core_count="1"      safe_count="0" />
+        <level level="1"    rates="100,0,0,0,0,0"       core_count="1"      safe_count="0" />
+        <level level="2"    rates="90,0,10,0,0,0"       core_count="1"      safe_count="0" />
+        <level level="3"    rates="80,0,0,20,0,0"       core_count="2"      safe_count="1" />
+        <level level="4"    rates="70,0,0,30,0,0"       core_count="2"      safe_count="1" />
+        <level level="5"    rates="60,0,0,40,0,0"       core_count="2"      safe_count="1" />
+        <level level="6"    rates="52,0,0,21,27,0"      core_count="3"      safe_count="1" />
+        <level level="7"    rates="44,0,0,20,36,0"      core_count="3"      safe_count="1" />
+        <level level="8"    rates="36,0,0,19,45,0"      core_count="3"      safe_count="1" />
+        <level level="9"    rates="36,0,0,16,48,0"      core_count="4"      safe_count="1" />
+        <level level="10"   rates="36,0,0,16,48,0"      core_count="4"      safe_count="1" />
+        <level level="11"   rates="36,0,0,16,48,0"      core_count="4"      safe_count="1" />
+        <level level="12"   rates="36,0,0,14,50,0"      core_count="5"      safe_count="1" />
+        <level level="13"   rates="36,0,0,14,50,0"      core_count="5"      safe_count="1" />
+        <level level="14"   rates="36,0,0,14,50,0"      core_count="5"      safe_count="1" />
+        <level level="15"   rates="35,0,65,0,0,0"       core_count="20"     safe_count="0" />
+        <level level="16"   rates="30,0,20,50,0,0"      core_count="30"     safe_count="2" />
+        <level level="17"   rates="20,0,20,50,10,0"     core_count="40"     safe_count="3" />
+        <level level="18"   rates="10,0,20,50,10,10"    core_count="50"     safe_count="4" />
+        <level level="19"   rates="5,0,0,50,30,15"      core_count="60"     safe_count="5" />
+	</normal_upgrade>
+    <normal_upgrade_enchant>
+    </normal_upgrade_enchant>
+    <normal_upgrade_superior>
+    </normal_upgrade_superior>
+    <normal_upgrade_perfect>
+    </normal_upgrade_perfect>
+    <divine_upgrade>
+    </divine_upgrade>
+    <chaos_upgrade>
+    </chaos_upgrade>
+</upgrade>
