@@ -16,15 +16,15 @@
 
 CONFIG_BEGIN(MasterSvr)
 CONFIG_PARAMETER(UInt8, ServerID, "MasterSvr.ServerID", 1)
-CONFIG_PARAMETER(UInt16, Port, "MasterSvr.Port", 38181)
+CONFIG_PARAMETER(UInt16, Port, "MasterSvr.Port", 38009)
 CONFIG_END(MasterSvr)
 
 CONFIG_BEGIN(MasterDB)
-CONFIG_PARAMETER_ARRAY(Char, MAX_PATH, Host, "MasterDB.Host", "127.0.0.1")
-CONFIG_PARAMETER_ARRAY(Char, MAX_PATH, Username, "MasterDB.Username", "root")
-CONFIG_PARAMETER_ARRAY(Char, MAX_PATH, Password, "MasterDB.Password", "root")
-CONFIG_PARAMETER_ARRAY(Char, MAX_PATH, Database, "MasterDB.Database", "master")
-CONFIG_PARAMETER(UInt16, Port, "MasterDB.Port", 3312)
+CONFIG_PARAMETER_ARRAY(Char, MAX_PATH, Host, "MasterDB.Host", 127.0.0.1)
+CONFIG_PARAMETER_ARRAY(Char, MAX_PATH, Username, "MasterDB.Username", root)
+CONFIG_PARAMETER_ARRAY(Char, MAX_PATH, Password, "MasterDB.Password", root)
+CONFIG_PARAMETER_ARRAY(Char, MAX_PATH, Database, "MasterDB.Database", master)
+CONFIG_PARAMETER(UInt16, Port, "MasterDB.Port", 3307)
 CONFIG_END(MasterDB)
 
 CONFIG_BEGIN(AuthSvr)

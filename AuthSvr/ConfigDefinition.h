@@ -32,11 +32,11 @@ CONFIG_PARAMETER_ARRAY(Char, MAX_PATH, Host, "AuthDB.Host", "127.0.0.1")
 CONFIG_PARAMETER_ARRAY(Char, MAX_PATH, Username, "AuthDB.Username", "root")
 CONFIG_PARAMETER_ARRAY(Char, MAX_PATH, Password, "AuthDB.Password", "root")
 CONFIG_PARAMETER_ARRAY(Char, MAX_PATH, Database, "AuthDB.Database", "auth")
-CONFIG_PARAMETER(UInt16, Port, "AuthDB.Port", 3310)
+CONFIG_PARAMETER(UInt16, Port, "AuthDB.Port", 3307)
 CONFIG_END(AuthDB)
 
 CONFIG_BEGIN(MasterSvr)
-CONFIG_PARAMETER(UInt16, Port, "MasterSvr.Port", 38180)
+CONFIG_PARAMETER(UInt16, Port, "MasterSvr.Port", 38009)
 CONFIG_END(MasterSvr)
 
 CONFIG_BEGIN(Links)

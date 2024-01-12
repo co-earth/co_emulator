@@ -41,7 +41,7 @@ CLIENT_PROCEDURE_BINDING(EXTRACT_ITEM) {
 		
 		// TODO: Add support for alert
 
-		RTDataDestroyItemPoolRef ItemPool = RTRuntimeDataDestroyItemPoolGet(&Runtime->Context, ItemPattern->PoolID);
+		RTDataDestroyItemPoolRef ItemPool = RTRuntimeDataDestroyItemPoolGet(Runtime->Context, ItemPattern->PoolID);
 		if (!ItemPool) continue;
 
 		for (Int32 ItemResultIndex = 0; ItemResultIndex < ItemPool->DestroyItemPoolResultCount; ItemResultIndex += 1) {

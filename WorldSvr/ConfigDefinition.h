@@ -44,7 +44,7 @@ CONFIG_PARAMETER(Int64, MinHonorPoint, "Environment.MinHonorPoint", -2000000000)
 CONFIG_END(Environment)
 
 CONFIG_BEGIN(MasterSvr)
-CONFIG_PARAMETER_ARRAY(Char, MAX_PATH, Host, "WorldSvr.Host", "127.0.0.1")
+CONFIG_PARAMETER_ARRAY(Char, MAX_PATH, Host, "MasterSvr.Host", "127.0.0.1")
 CONFIG_PARAMETER(UInt16, Port, "MasterSvr.Port", 38181)
 CONFIG_END(MasterSvr)
 

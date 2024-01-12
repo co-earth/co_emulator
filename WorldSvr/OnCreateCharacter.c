@@ -6,7 +6,7 @@
 #include "Server.h"
 #include "Util.h"
 
-#define RUNTIME_CREATE_DEBUG_CHARACTER 1
+#define RUNTIME_CREATE_DEBUG_CHARACTER 0
 
 CLIENT_PROCEDURE_BINDING(CREATE_CHARACTER) {
 	S2C_DATA_CREATE_CHARACTER* Response = PacketInit(S2C_DATA_CREATE_CHARACTER);
@@ -67,25 +67,12 @@ CLIENT_PROCEDURE_BINDING(CREATE_CHARACTER) {
 		return SocketSend(Socket, Connection, Response);
 	}
 
-
-	struct _RTCharacterInfo {
-		union _RTCharacterStyle Style;
-		struct _RTCharacterLevel Level[RUNTIME_CHARACTER_LEVEL_COUNT];
-		struct _RTCharacterHonor Honor;
-		struct _RTCharacterAbility Ability;
-		struct _RTCharacterSkill Skill;
-		struct _RTCharacterResource Resource;
-		UInt16 Stat[RUNTIME_CHARACTER_STAT_COUNT];
-		UInt64 Currency[RUNTIME_CHARACTER_CURRENCY_COUNT];
-		struct _RTCharacterPosition Position;
-	};
-	
 	Request->CharacterData.Level[RUNTIME_CHARACTER_LEVEL_BASIC].Level = 1;
 	Request->CharacterData.Skill.Rank = 1;
 	Request->CharacterData.Skill.Level = 0;
 	Request->CharacterData.Style = Style;
 
-	RTDataCharacterInitRef CharacterInit = RTRuntimeDataCharacterInitGet(&Server->Runtime->Context, BattleStyleIndex);
+	RTDataCharacterInitRef CharacterInit = RTRuntimeDataCharacterInitGet(Server->Runtime->Context, BattleStyleIndex);
 
 	Request->CharacterData.Position.WorldID = CharacterInit->WorldID;
 	Request->CharacterData.Position.X = CharacterInit->X;
@@ -131,7 +118,7 @@ CLIENT_PROCEDURE_BINDING(CREATE_CHARACTER) {
 		Request->CharacterEquipment.Count += 1;
 	}
 
-	RTDataCharacterInitStatRef CharacterInitStat = RTRuntimeDataCharacterInitStatGet(&Server->Runtime->Context, BattleStyleIndex);
+	RTDataCharacterInitStatRef CharacterInitStat = RTRuntimeDataCharacterInitStatGet(Server->Runtime->Context, BattleStyleIndex);
 	Request->CharacterData.Stat[RUNTIME_CHARACTER_STAT_STR] = CharacterInitStat->Str;
 	Request->CharacterData.Stat[RUNTIME_CHARACTER_STAT_DEX] = CharacterInitStat->Dex;
 	Request->CharacterData.Stat[RUNTIME_CHARACTER_STAT_INT] = CharacterInitStat->Int;
@@ -147,7 +134,7 @@ CLIENT_PROCEDURE_BINDING(CREATE_CHARACTER) {
 	Request->CharacterData.Level[RUNTIME_CHARACTER_LEVEL_BASIC].Exp = RTRuntimeGetExpByLevel(Runtime, 200);
 	Request->CharacterData.Stat[RUNTIME_CHARACTER_STAT_PNT] = 200 * 5;
 
-	RTDataHonorLevelFormulaRef HonorLevelFormula = RTRuntimeDataHonorLevelFormulaGet(Runtime->Context, 20);
+	RTDataHonorLevelFormulaRef HonorLevelFormula = RTRuntimeDataHonorLevelFormulaGet(Server->Runtime->Context, 20);
 	Request->CharacterData.Honor.Rank = HonorLevelFormula->Rank;
 	Request->CharacterData.Honor.Exp = HonorLevelFormula->MaxPoint;
 #endif

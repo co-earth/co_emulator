@@ -18,7 +18,7 @@ enum {
 #endif
 
 RUNTIME_DATA_TYPE_BEGIN(CharacterInit, "cabal.char_init.init", 16)
-	RUNTIME_DATA_PROPERTY(Int32, Style, "style")
+	RUNTIME_DATA_PROPERTY(UInt32, Style, "style")
 	RUNTIME_DATA_PROPERTY(Int32, WorldID, "world_id")
 	RUNTIME_DATA_PROPERTY(Int32, X, "x")
 	RUNTIME_DATA_PROPERTY(Int32, Y, "y")
@@ -35,13 +35,13 @@ RUNTIME_DATA_TYPE_END(CharacterInit)
 RUNTIME_DATA_TYPE_INDEX(CharacterInit, UInt32, Style)
 
 RUNTIME_DATA_TYPE_BEGIN(CharacterNewHP, "cabal.char_newhp.newhp", 16)
-	RUNTIME_DATA_PROPERTY(Int32, Style, "bs")
+	RUNTIME_DATA_PROPERTY(UInt32, Style, "bs")
 	RUNTIME_DATA_PROPERTY(Int32, Delta, "bdelta")
 RUNTIME_DATA_TYPE_END(CharacterNewHP)
 RUNTIME_DATA_TYPE_INDEX(CharacterNewHP, UInt32, Style)
 
 RUNTIME_DATA_TYPE_BEGIN(CharacterInitStat, "cabal.initstat.initstat", 16)
-	RUNTIME_DATA_PROPERTY(Int32, Style, "id")
+	RUNTIME_DATA_PROPERTY(UInt32, Style, "id")
 	RUNTIME_DATA_PROPERTY(Int32, Str, "str")
 	RUNTIME_DATA_PROPERTY(Int32, Dex, "dex")
 	RUNTIME_DATA_PROPERTY(Int32, Int, "int")

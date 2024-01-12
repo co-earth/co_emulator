@@ -197,11 +197,33 @@ Bool ParseBattleStyleString(
 Bool ServerLoadCharacterTemplateData(
     ServerContextRef Server
 ) {
-    Archive* Archive = &Server->RuntimeData->ServerCharacterInit;
-    Int32 ParentIndex = ArchiveNodeGetChildByPath(Archive, -1, "server_character_init");
+    Archive* Archive = &Server->RuntimeData->Rank;
+    Int32 ParentIndex = ArchiveNodeGetChildByPath(Archive, -1, "cabal.char_init");
     if (ParentIndex < 0) goto error;
 
-    ArchiveIterator* Iterator = ArchiveQueryNodeIteratorFirst(Archive, ParentIndex, "character_init");
+    ArchiveIterator* Iterator = ArchiveQueryNodeIteratorFirst(Archive, ParentIndex, "init");
+    while (Iterator) {
+        Int32 BattleStyleIndex = 0;
+        if (!ParseAttributeInt32(Archive, Iterator->Index, "style", &BattleStyleIndex)) goto error;
+
+        assert(RUNTIME_DATA_CHARACTER_BATTLE_STYLE_INDEX_MIN <= BattleStyleIndex && BattleStyleIndex <= RUNTIME_DATA_CHARACTER_BATTLE_STYLE_INDEX_MAX);
+
+        RTBattleStyleLevelFormulaDataRef FormulaData = &Server->Runtime->BattleStyleLevelFormulaData[BattleStyleIndex - 1];
+        FormulaData->BattleStyleIndex = BattleStyleIndex;
+        
+        if (!ParseAttributeUInt32(Archive, Iterator->Index, "hp", &FormulaData->BaseHP)) goto error;
+        if (!ParseAttributeUInt32(Archive, Iterator->Index, "mp", &FormulaData->BaseMP)) goto error;
+        if (!ParseAttributeUInt32(Archive, Iterator->Index, "delta_hp", &FormulaData->DeltaHP)) goto error;
+        if (!ParseAttributeUInt32(Archive, Iterator->Index, "delta_mp", &FormulaData->DeltaMP)) goto error;
+
+        Iterator = ArchiveQueryNodeIteratorNext(Archive, Iterator);
+    }
+
+    Archive = &Server->RuntimeData->ServerCharacterInit;
+    ParentIndex = ArchiveNodeGetChildByPath(Archive, -1, "server_character_init");
+    if (ParentIndex < 0) goto error;
+
+    Iterator = ArchiveQueryNodeIteratorFirst(Archive, ParentIndex, "character_init");
     while (Iterator) {
         Int32 BattleStyleIndex = 0;
         if (!ParseAttributeInt32(Archive, Iterator->Index, "style", &BattleStyleIndex)) goto error;
@@ -905,9 +927,10 @@ Bool ServerLoadMobData(
             LogMessageFormat(LOG_LEVEL_WARNING, "Mob Skill Group: %d", Index);
     }
 
+    CString FilePath = PathCombineNoAlloc(RuntimeDirectory, "mobserver.dat");
     UInt8* Memory = NULL;
     Int32 MemoryLength;
-    FileRef File = FileOpen(PathCombineNoAlloc(RuntimeDirectory, "mobserver.dat"));
+    FileRef File = FileOpen(FilePath);
     FileRead(File, &Memory, &MemoryLength);
 
     struct _ArchiveMobData* MobData = Memory;

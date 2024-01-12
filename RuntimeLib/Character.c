@@ -1214,7 +1214,7 @@ Int32 RTCharacterAddSkillExp(
 	);
 
 	Int32 SkillLevelMax = RTRuntimeDataCharacterRankUpConditionGet(
-		&Runtime->Context,
+		Runtime->Context,
 		Character->Info.Skill.Rank,
 		BattleStyleIndex
 	);

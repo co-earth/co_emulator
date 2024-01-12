@@ -160,7 +160,7 @@ Void ServerRuntimeOnEvent(
 
             Int32 BattleStyleIndex = Character->Info.Style.BattleStyle | (Character->Info.Style.ExtendedBattleStyle << 3);
             Int32 SkillLevelMax = RTRuntimeDataCharacterRankUpConditionGet(
-                &Runtime->Context,
+                Runtime->Context,
                 Character->Info.Skill.Rank,
                 BattleStyleIndex
             );
