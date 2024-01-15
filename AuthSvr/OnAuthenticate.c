@@ -70,6 +70,7 @@ Void SendMessageLoginSuccess(
     SocketSend(Socket, Connection, Response);
 }
 
+
 CLIENT_PROCEDURE_BINDING(OnAuthenticate, C2S_AUTHENTICATE, C2S_DATA_AUTHENTICATE) {
     if (!(Client->Flags & CLIENT_FLAGS_AUTHORIZED)) {
         return SocketDisconnect(Socket, Connection);
@@ -102,6 +103,7 @@ CLIENT_PROCEDURE_BINDING(OnAuthenticate, C2S_AUTHENTICATE, C2S_DATA_AUTHENTICATE
     Response->AccountStatus = ACCOUNT_STATUS_NORMAL;
 
     AUTHDB_DATA_ACCOUNT Account = { 0 };
+
     if (AuthDBSelectAccountByUsername(Server->Database, Username, &Account)) {
         if (Account.DeletedAt > 0) {
             Response->AccountStatus = ACCOUNT_STATUS_ACCOUNT_IS_DELETED;
@@ -120,6 +122,7 @@ CLIENT_PROCEDURE_BINDING(OnAuthenticate, C2S_AUTHENTICATE, C2S_DATA_AUTHENTICATE
 
             if (InvalidCredentials) {
                 Response->AccountStatus = ACCOUNT_STATUS_INVALID_CREDENTIALS;
+               
             }
             else {
                 Response->AccountStatus = ACCOUNT_STATUS_NORMAL;
@@ -143,7 +146,7 @@ CLIENT_PROCEDURE_BINDING(OnAuthenticate, C2S_AUTHENTICATE, C2S_DATA_AUTHENTICATE
     }
     else {
         Response->AccountStatus = ACCOUNT_STATUS_INVALID_CREDENTIALS;
-       
+                
         // TODO: Add error handling to Database to differentiate "not found" from real errors
         // Response->AccountStatus = ACCOUNT_STATUS_OUT_OF_SERVICE;
     }
@@ -154,7 +157,10 @@ CLIENT_PROCEDURE_BINDING(OnAuthenticate, C2S_AUTHENTICATE, C2S_DATA_AUTHENTICATE
 
     SocketSend(Socket, Connection, Response);
 
-    if (Response->LoginStatus != LOGIN_STATUS_SUCCESS) goto error;
+    //if (Response->LoginStatus != LOGIN_STATUS_SUCCESS) goto error; --> 
+    /*
+    * Commented because every time there was an error in the credentials, the goto of this if jumped to (FN ERROR) and the socker disconnected
+    */
 
     Client->Flags |= CLIENT_FLAGS_AUTHENTICATED;
 
@@ -197,7 +203,7 @@ CLIENT_PROCEDURE_BINDING(OnAuthenticate, C2S_AUTHENTICATE, C2S_DATA_AUTHENTICATE
     SendMessageLoginSuccess(Server, Socket, Client, Connection);
 
     BroadcastWorldListToConnection(Server, Connection);
-    
+
     // Just clearing the payload buffer to avoid keeping sensitive data in memory!
     memset(Client->RSAPayloadBuffer, 0, sizeof(Client->RSAPayloadBuffer));
     return;
@@ -205,6 +211,5 @@ CLIENT_PROCEDURE_BINDING(OnAuthenticate, C2S_AUTHENTICATE, C2S_DATA_AUTHENTICATE
 error:
     // Just clearing the payload buffer to avoid keeping sensitive data in memory!
     memset(Client->RSAPayloadBuffer, 0, sizeof(Client->RSAPayloadBuffer));
-
     SocketDisconnect(Socket, Connection);
 }
