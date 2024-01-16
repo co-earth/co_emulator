@@ -1,6 +1,13 @@
-# MMORPG Server Emulator
+# Cabal Online Server Emulator
 
-Check the LICENSE first!
+Disclaimer: This project is an MMORPG server emulator created solely for educational purposes. It does not use any copyrighted materials or proprietary game-related information. The creator takes no responsibility for any misuse of this project for activities that may infringe on copyrights, proprietary rights, or violate terms of service agreements. 
+
+This project is released under the MIT License.
+
+## Project Motivation
+
+This project was initiated out of a genuine interest on learning how game servers work and how they are or could be developed. 
+Please note that this project is not affiliated with the official game developers, and any similarities if there are any are coincidental. The creator takes no responsibility for the use of this project for any purpose other than educational. The project is released under the MIT License, and users are encouraged to adhere to its terms.
 
 ## External Dependencies
 
@@ -32,14 +39,3 @@ For any issues setting up client search on forums
 
 The project uses CMake as build system and only Win32 was tested for now.
 For Linux distributions some smaller refactorings are required.
-
-### Windows 64 Bit
-
-```sh
-cmake -G "Visual Studio 17 2022" -A x64 -S . -B "Build"
-```
-
-## State
-
-The project is far away from begin finished and only implements a few things for now.
-The WorldSvr is taking up 3gb of RAM because who cares at this point... if your system has low memory then refactor the ServerContext and ServerDataLoader.
